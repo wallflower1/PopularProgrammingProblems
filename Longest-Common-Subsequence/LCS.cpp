@@ -22,12 +22,6 @@ int LCS_length(string a, string b, int n, int m){
 	return lcs[n][m];
 } 
 
-int max(int x, int y){
-	if(x>y)
-		return x;
-	return y;
-}
-
 void print_LCS(string a, string b, int n, int m){
 	int i=n, j=m;
 	string c="";
