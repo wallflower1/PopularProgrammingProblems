@@ -24,3 +24,6 @@ Output:
 
 ### Solution
 Solution requires a preprocessing step of calculating a prefix arrays ( size |b|), with ith value holding the count of occurrences of '0's and '1's, respectively, in the prefix (0, i) of string b. Using this we can calculate the mismatched frequency of a[i] in b, for i in (0, |a|). Overall sum of this will give the result.
+
+Time Complexity: O(|a| + |b|)
+Space Complexity: O(|a| + |b|)
